@@ -39,4 +39,4 @@ def _convert_to_scale(image, scale):
 if __name__ == "__main__":
     import sys
     pix_image = convert(sys.argv[1])
-    pix_image.show()
+    pix_image.save(sys.argv[2])
