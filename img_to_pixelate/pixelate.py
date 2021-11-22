@@ -3,7 +3,7 @@ converts an image to pixelate
 """
 from PIL import Image, ImageDraw
 
-IMAGE_SCALE = 0.2
+IMAGE_SCALE = 0.3
 PIXEL_SIZE = 5
 
 def convert(image_path):
